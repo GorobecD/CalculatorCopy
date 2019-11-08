@@ -1,11 +1,9 @@
-#ifndef CALCULATOR_H
-#define CALCULATOR_H
-
-class Calculator
+int factorial(int number)
 {
-	public:
-		int Add (double, double);
-		int Sub (double, double);
-};
-
-#endif//CALCULATOR_H
+	int iteration, factorial=1;
+	for(iteration=1; iteration<=number; iteration++)
+	{
+        	factorial=factorial*iteration;
+     	}
+     	return factorial;
+}

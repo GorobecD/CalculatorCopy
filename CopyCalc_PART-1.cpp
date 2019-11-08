@@ -1,6 +1,9 @@
-#include "CopyCalc.h"
+#include <iostream>
 
-int Calculator::Add (double a, double b)
+using namespace std;
+
+int main()
 {
-	return a + b + 0.5;
+	cout << "Hello World!" << endl;
+	return 0;
 }

@@ -1,6 +1,15 @@
 #include "CopyCalc.h"
+#include <iostream>
 
-int Calculator::Sub (double a, double b)
+using namespace std;
+
+int main()
 {
-	return Add (a, -b);
+	int positive_integer;
+	cout<<"Enter a positive integer: "<<endl;
+	cin>>positive_integer;
+	cout<<"The factorial of " << positive_integer << " is: " <<  factorial(positive_integer) <<endl;
+
+	return 0;
 }
+
