@@ -1,4 +1,4 @@
-#include "calculator.h"
+#include "CopyCalc.h"
 
 int Calculator::Add (double a, double b)
 {

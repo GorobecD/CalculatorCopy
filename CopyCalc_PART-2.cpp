@@ -1,4 +1,4 @@
-#include "calculator.h"
+#include "CopyCalc.h"
 
 int Calculator::Sub (double a, double b)
 {
